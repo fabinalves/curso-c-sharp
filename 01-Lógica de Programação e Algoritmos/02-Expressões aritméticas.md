@@ -17,7 +17,7 @@ em expressões deste tipo.
 ## Precedência entre operadores
 
 Os operadores ``* / %`` tem precedência maior que os operadores ``+ -``
->Quando a expressão tem operadores com a mesma precedência, a expressão deve ser resolvida da esquerda para direita.
+>A expressão deve ser resolvida da esquerda para direita, quando a expressão tem operadores com a mesma precedência.
 
 >Expressões com parênteses são resolvidas primeiro.
 
