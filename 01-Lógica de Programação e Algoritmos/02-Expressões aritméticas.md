@@ -23,13 +23,26 @@ Os operadores ``* / %`` tem precedência maior que os operadores ``+ -``
 
 ## Exemplos:
 
+
 Nesse primeiro exemplo, como a expressão tem operadores com a mesma precedência a expressão deve ser resolvida da esquerda para direita.
-``2*6/3 = 4``
+
+```csharp
+//Exemplo 1
+2*6/3 = 4
+```
 
 No segundo exemplo, primeiro será resolvida a expressão ``2*4`` e depois ``3+2``.
-``3+2*4 = 11``
+
+```csharp
+//Exemplo 2
+3+2*4 = 11
+```
 
 No terceiro exemplo, como a expressão ``(3+2)`` está entre parênteses, ela será resolvida primeiro.
-``(3+2)*4 = 20``
+
+```csharp
+//Exemplo 3
+(3+2)*4 = 20
+```
 
 
