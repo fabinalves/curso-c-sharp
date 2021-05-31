@@ -7,8 +7,7 @@ Entrada de dados é quando o programa ler os dados que o usuario digita.
 ## Comando
 ``Console.ReadLine();``
 
->Lê da entrada padrão até a quebra de linha
-Retorna os dados lidos na forma de string.
+>Lê da entrada padrão até a quebra de linha e retorna os dados lidos na forma de string.
 
 ## Exemplos
 

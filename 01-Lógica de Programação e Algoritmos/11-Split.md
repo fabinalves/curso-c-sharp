@@ -39,6 +39,7 @@ Console.WriteLine(palavra2);
 string frase = "Marilda 20 1.74";
 string[] vet = frase.Split(' ');
 x = vet[0];
+
 //Converte o valor digitado para int e guarda na variavel y
 y = int.Parse(vet[1]);
 //Converte o valor digitado para double e guarda na variavel z
